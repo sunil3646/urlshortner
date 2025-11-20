@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Trash2, BarChart2, Copy, ExternalLink, ArrowRight, Link as LinkIcon, Activity, AlertCircle } from 'lucide-react';
 
 // Configuration
-// CHANGE THIS to your production URL when deploying (e.g., https://my-app.onrender.com)
-const API_BASE_URL = 'http://localhost:3000'; 
+const API_BASE_URL = 'https://urlshortner-e1n4.onrender.com/'; 
 
 function App() {
   // State
